@@ -11,7 +11,7 @@ class Product
 
 double calculateDiscount()
 {
-	return this.price*0.10; //apply 10% discount
+	return this.price*0.10; 
 }
 double calculateFinalPrice()
  {
