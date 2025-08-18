@@ -1,5 +1,4 @@
 package keywords;
-
 class Product
 {
 	double price;
@@ -11,7 +10,7 @@ class Product
 
 double calculateDiscount()
 {
-	return this.price*0.10; 
+	return this.price*0.10; //apply 10% discount
 }
 double calculateFinalPrice()
  {
@@ -26,7 +25,6 @@ public class ThisKeyword_demo {
 		Product pd=new Product(400);
         System.out.println("Final price "+pd.calculateFinalPrice());
 	}
-
 
 
 }
